@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.redabacus.in/gallery.html -->
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="rr.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Red Abacus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="keywords" content="">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="./123_files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="./123_files/style.css" type="text/css" media="all">
+<!--// css -->
+<link rel="stylesheet" href="./123_files/lightbox.css">
+<!-- font-awesome icons -->
+<link href="./123_files/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="./123_files/css" rel="stylesheet">
+<link href="./123_files/css(1)" rel="stylesheet">
+<!-- //font -->
+<script src="./123_files/jquery-1.11.1.min.js.download"></script>
+<script src="./123_files/bootstrap.js.download"></script>
+<script type="text/javascript" src="./123_files/move-top.js.download"></script>
+<script type="text/javascript" src="./123_files/easing.js.download"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>	
+<!--animate-->
+<link href="./123_files/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="./123_files/wow.min.js.download"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<!--------------------subscription form----------------->
+	<script>
+$(function(){
+$('#subscribeform').submit(function(){				  
+var action = $(this).attr('action');
+$.post(action, { 
+email: $('#emails').val()
+},
+function(data){
+$('#subcribeform #submit').attr('disabled','');
+$('.response').remove();
+$('#subcribeform').before('<p class="response">'+data+'</p>');
+$('.response').slideDown();
+if(data=='You are now subscribed!') $('#subscribeform').slideUp();
+}
+); 
+return false;
+});
+});
+// ]]>
+</script>       
+	<!---------------------subscription form ends----------->
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-info">
+					<div class="top-header-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+						<p>RIGHT EDUCATION DAILY</p>
+					</div>
+					<div class="top-header-right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+						<!--<div class="top-header-right-info">
+							<ul>
+								<li><a href="login.html">Login</a></li>
+								<li><a href="signup.html">Sign up</a></li>
+							</ul>
+						</div>-->
+						<div class="social-icons">
+							<ul>
+								<!--<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
+								<li><a class="twitter facebook" href="https://www.facebook.com/redabacus.numers/?ref=aymt_homepage_panel" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="twitter linkedin" href="https://www.linkedin.com/company-beta/13251494" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a class="twitter google" href="http://www.redabacus.in/gallery.html#"><i class="fa fa-google-plus" target="_blank"></i></a></li>
+								<li><a class="twitter youtube" href="https://www.youtube.com/channel/UCuBta1e9sw79yDcJ0h0_Dkw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+								
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="logo wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+					<h1><a href="http://www.redabacus.in/index.html"><img src="./123_files/red_abacus.jpg" alt="" width="135"></a></h1>
+				</div>
+				<div class="top-nav wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu						
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="http://www.redabacus.in/index.html">Home</a></li>
+								<li><a href="http://www.redabacus.in/about.html">About</a></li>
+								<li><a href="http://www.redabacus.in/product.html">Product</a></li>
+								<!--<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a class="hvr-bounce-to-bottom" href="gallery1.html">Gallery1</a></li>
+										<li><a class="hvr-bounce-to-bottom" href="gallery2.html">Gallery2</a></li> 
+										<li><a class="hvr-bounce-to-bottom" href="icons.html">Font Icons</a></li>     												
+									</ul>
+								</li>	-->
+								<li><a href="http://www.redabacus.in/faqs.html">FAQs</a></li>
+								<li><a href="http://www.redabacus.in/gallery.html" class="active">Gallery</a></li>
+								
+								<li><a href="http://www.redabacus.in/contact.html">Contact</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	
+	<!-- gallery -->
+		
+	<h1 id="hrt">GALLERY</h1>
+
+		
+
+		
+		<h1 id="hi">CLASSROOM</h1>
+		<img id="myImg" src="c1.jpg" alt="Trolltunga, Norway" ><br>
+		 <h1 id="hi1">TEACHERS</h1>
+		<img id="myImg1" src="b1.jpg" alt="Trolltunga, Norway" ></div><br>
+		<h1 id="hi2">KIDS</h1>
+		<img id="myImg2" src="k1.jpg" alt="Trolltunga, Norway" ></div>
+		<h1 id="hi3">ACTIVITIES</h1>
+		<img id="myImg3" src="a1.jpg" alt="Trolltunga, Norway" ></div><br><br><br><br><br><br>
+
+  		
+</body></html>

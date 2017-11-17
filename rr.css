@@ -1,0 +1,99 @@
+
+#hi{
+	position: absolute;
+    top: 45%;
+    float: left;
+     left:	8%;
+}
+#hi1{
+	position: absolute;
+    top: 45%;
+    float: right;
+     right:	8%;
+}
+#hi2{
+	position: absolute;
+    top: 95%;
+    float: ;
+     left:	8%;
+}
+#hi3{
+	position: absolute;
+    top: 95%;
+    float: ;
+     right:	8%;
+}
+
+
+
+#hrt{ position: absolute;
+		size: 60%;
+		right: 500px;
+		top: 30%;
+
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 35%;
+    height: 35%;
+    left:	8%; 
+}
+#myImg:hover {opacity: 0.7;}
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 35%;
+    height: 35%;
+}
+#myImg1:hover {opacity: 0.7;}
+
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 100%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: ;
+    width: 35%;
+    height: 35%;
+    left: 8%;
+}
+#myImg2:hover {opacity: 0.7;}
+
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 100%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: ;
+    width: 35%;
+    height: 35%;
+    right: 8%;
+}
+#myImg3:hover {opacity: 0.7;}
+
+
+
